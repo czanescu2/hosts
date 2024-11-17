@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "czanescu2 was here"
 if [ ! -e "$1" ]; then
 	echo "$1 nu exista"
 elif [ -f "$1" ]; then
